@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script src="1.js"></script>
+<center>
+<div id="app" style="width: 800px;">
+<a href="http://google.com/" v-on:click.prevent="isTextShow = true">Источник всего</a>
+<p v-if="isTextShow">{{ showText() }}</p>
+</div>
+</center>
+</body>
+</html>

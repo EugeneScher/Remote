@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie4</title>
+</head>
+<body>
+<script src="1.js"></script>
+<div id="FP"> 
+<template v-if="isShow"> 
+<p>Абзац 1</p> 
+<p>Абзац 2</p> 
+<p>Абзац 3</p> 
+</template> 
+<button v-on:click="showHideEleme"> 
+{{ isShow ? 'Скрыть' : 'Показать' }} 
+</button> 
+</div>  
+</body>
+</html>

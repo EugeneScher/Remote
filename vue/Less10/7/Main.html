@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie6</title>
+</head>
+<body>
+<script src="1.js"></script>
+<div id="Fvar"> 
+<input type="checkbox" v-model="values" value="a"> 
+<input type="checkbox" v-model="values" value="b"> 
+<input type="checkbox" v-model="values" value="c"> 
+<input type="checkbox" v-model="values" value="d"> 
+<ul> 
+<li v-for="(value, idx) in values" v-bind:key="idx"> 
+{{ value }} 
+</li> 
+</ul> 
+</div> 
+</body>
+</html>

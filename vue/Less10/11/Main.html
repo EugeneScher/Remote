@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie8</title>
+</head>
+<body>
+<script src="1.js"></script>
+<div id="app"> 
+<select v-model="selectValue"> 
+<option v-for="(num, idx) in numbers" v-bind:key="idx"> 
+{{ num }} 
+</option> 
+</select> 
+<p>{{ selectValue }}</p> 
+</div> 
+</body>
+</html>

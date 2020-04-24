@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script src="1.js"></script>
+<center>
+<div id="app" style="width: 800px;">
+<a href="#" 
+v-on:click.left.prevent="text = 'left'"
+v-on:click.right.prevent="text = 'right'"
+v-on:click.middle.prevent="text = 'middle'"
+>
+кликни
+</a>
+<p v-if="text != ''">{{ text}}</p>
+</div>
+</center>
+</body>
+</html>
